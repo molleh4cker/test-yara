@@ -1,1 +1,8 @@
-rule Hello { strings: $ascii = "hello" condition: $ascii }
+rule Hello 
+{ 
+  strings: 
+    $ascii = "hello" 
+
+  condition: 
+    $ascii 
+}
