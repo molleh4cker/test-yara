@@ -1,7 +1,7 @@
 rule Hello 
 { 
   strings: 
-    $ascii = "hello" 
+    $ascii = "hello";
 
   condition: 
     $ascii 
