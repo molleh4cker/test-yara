@@ -1,6 +1,15 @@
 rule Hello 
 { 
   strings: 
+    $ascii = "hello"
+
+  condition: 
+    $ascii 
+}
+
+rule Hola 
+{ 
+  strings: 
     $ascii = "hola"
 
   condition: 
