@@ -1,11 +1,11 @@
-rule Hello 
-{ 
-  strings: 
-    $ascii = "hello"
-
-  condition: 
-    $ascii 
-}
+//rule Hello 
+//{ 
+//  strings: 
+//    $ascii = "hello"
+//
+//  condition: 
+//    $ascii 
+//}
 
 rule SUSP_obfuscated_JS_obfuscatorio
 {
