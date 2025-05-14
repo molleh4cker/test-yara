@@ -1,7 +1,7 @@
-rule Hello 
+rule Pepe 
 { 
   strings: 
-    $ascii = "hello"
+    $ascii = "pepe"
 
   condition: 
     $ascii 
