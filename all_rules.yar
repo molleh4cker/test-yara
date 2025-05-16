@@ -6,6 +6,14 @@
     Not shared publicly: rules for CobaltStrike loader samples, ISOs, specifc msiexec method found in some samples
     only available in THOR and VALHALLA
 */
+rule Pepe 
+{ 
+  strings: 
+    $ascii = "asdas"
+
+  condition: 
+    $ascii 
+}
 
 rule APT_APT29_NOBELIUM_JS_EnvyScout_May21_1 {
    meta:
