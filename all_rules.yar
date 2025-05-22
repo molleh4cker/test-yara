@@ -15,6 +15,15 @@ rule Pepe
     $ascii 
 }
 
+rule Hola 
+{ 
+  strings: 
+    $ascii = "hola"
+
+  condition: 
+    $ascii 
+}
+
 rule APT_APT29_NOBELIUM_JS_EnvyScout_May21_1 {
    meta:
       description = "Detects EnvyScout deobfuscator code as used by NOBELIUM group"
